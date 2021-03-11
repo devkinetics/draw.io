@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T02:11:39.478Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" version="14.4.7" etag="_B66jGlsaXmc0E6VEplW" type="github"><diagram id="bUEqQoBX0bbGHjxW2ow4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-11T03:14:47.997Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36" etag="GlcvdZcxOA7hXnUMvQYY" version="14.4.7" type="github">
+  <diagram id="bUEqQoBX0bbGHjxW2ow4" name="Page-1">
+    <mxGraphModel dx="1298" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cLLcCTPHAPAMv4O_if24-1" value="AWS ORG" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="15" y="10" width="515" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-4" target="cLLcCTPHAPAMv4O_if24-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-4" target="cLLcCTPHAPAMv4O_if24-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-4" value="Main" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-5" value="Sandbox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-6" value="Non-Prod&lt;br&gt;(Dev)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-7" value="Demo&lt;br&gt;(TestNet)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-8" value="Live&lt;br&gt;(Prod)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="429" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-11" target="cLLcCTPHAPAMv4O_if24-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-11" target="cLLcCTPHAPAMv4O_if24-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-11" value="Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-11" target="cLLcCTPHAPAMv4O_if24-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="180" as="sourcePoint" />
+            <mxPoint x="160" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-11" target="cLLcCTPHAPAMv4O_if24-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="190" as="sourcePoint" />
+            <mxPoint x="170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-14" value="Sandbox" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-16" value="AWS Accounts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-17" value="Enviroments | VPC | Bastion" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="389" y="40" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-18" value="DevOps Tools" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="130" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-19" value="Test" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="190" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-20" value="Dev" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-21" value="QA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="270" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-22" value="UAT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-23" value="TestNet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="424" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-24" value="Prod" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="424" y="429" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-25" value="Service Account&lt;br&gt;(Jenkins)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="240" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-26" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-25" target="cLLcCTPHAPAMv4O_if24-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="150" as="sourcePoint" />
+            <mxPoint x="434" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-27" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="150" as="sourcePoint" />
+            <mxPoint x="410" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-28" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-25" target="cLLcCTPHAPAMv4O_if24-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="150" as="sourcePoint" />
+            <mxPoint x="434" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-29" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-5" target="cLLcCTPHAPAMv4O_if24-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="270" as="sourcePoint" />
+            <mxPoint x="434" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-30" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="350" as="sourcePoint" />
+            <mxPoint x="414" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-31" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.user" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="37" height="39.36" as="geometry" />
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.14;exitY=0.65;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLLcCTPHAPAMv4O_if24-31" target="cLLcCTPHAPAMv4O_if24-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="160" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cLLcCTPHAPAMv4O_if24-33" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="328.5" y="139.36" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
