@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T03:19:18.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="LP8l4SYNOY6XgjoPAxap" version="15.5.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T08:36:57.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="_vMO8STbW-o3K1o1mZn0" version="15.5.9" type="github">
   <diagram id="1wNPf2Jy0akyZkvdoQCR" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qhBNoVydyU75MvFfsmfa-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qhBNoVydyU75MvFfsmfa-11" target="qhBNoVydyU75MvFfsmfa-22">
+        <mxCell id="qhBNoVydyU75MvFfsmfa-23" value="Merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qhBNoVydyU75MvFfsmfa-11" target="qhBNoVydyU75MvFfsmfa-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qhBNoVydyU75MvFfsmfa-11" value="Pull Request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -123,13 +123,13 @@
         <mxCell id="qhBNoVydyU75MvFfsmfa-30" value="Release" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qhBNoVydyU75MvFfsmfa-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qhBNoVydyU75MvFfsmfa-31" target="qhBNoVydyU75MvFfsmfa-32">
+        <mxCell id="qhBNoVydyU75MvFfsmfa-36" value="Trigger" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qhBNoVydyU75MvFfsmfa-31" target="qhBNoVydyU75MvFfsmfa-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qhBNoVydyU75MvFfsmfa-31" value="04 Release, Tag" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qhBNoVydyU75MvFfsmfa-41" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qhBNoVydyU75MvFfsmfa-32" target="qhBNoVydyU75MvFfsmfa-39">
+        <mxCell id="qhBNoVydyU75MvFfsmfa-41" value="Trigger" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qhBNoVydyU75MvFfsmfa-32" target="qhBNoVydyU75MvFfsmfa-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qhBNoVydyU75MvFfsmfa-32" value="Upload Versioned Artifact" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
